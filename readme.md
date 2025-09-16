@@ -18,8 +18,8 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 ### Create
 1. Log in → Create/Select project → Create vm/instance
 2. Name the vm/instance
-3. Region/zone: <us-east1> 
-4. Machine type: <E2-micro>
+3. Region/zone: us-east1 
+4. Machine type: E2-micro
 5. Image: Ubuntu LTS
 6. Boot disk: default minimal
 7. Network: default VPC; ephemeral public IP
@@ -27,10 +27,13 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 ![GCP create](images/Google-create.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
-- Stop: <state shows TERMINATED/STOPPED>
+- Start: 
+- Stop: 
 
 ![GCP running](images/Google-running.png)
+
+![GCP stopped](images/Google-stop.png)
+
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
@@ -41,9 +44,9 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 
 ## Oracle Cloud (OCI)
 ### Create
-1. Compartment: <root>
+1. Compartment: root
 2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <E2.1-micro>
+3. Shape: E2.1-micro
 4. Image: Ubuntu
 5. Public IP: ephemeral
 6. Boot volume: default minimal
@@ -51,8 +54,7 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 ![OCI create](images/Oracle-create.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
-- Stop: <state shows STOPPED>
+- Start:
 
 ![OCI running](images/Oracle-running.png)
 
@@ -65,10 +67,13 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 
 ## Reflections
 ### Similarities
-- <brief bullets>
+- Both OCI and GCP have a web interface allowing for customizable options to create a vm.
+- They also provide a step-by-step course on the creation of a vm.
 
 ### Differences
-- <brief bullets>
+- GCP's interface has a simpler layout.
+- GCP contains more options for operating systems.
+- OCI requires more configuration before being able to create and run a vm.
 
 ### Preference (OCI vs GCP) and Why
-- <one short paragraph>
+- I prefer GCP over OCI due to its user-friendly interface and how quickly a vm can be created. OCI contains more detailed options which is good for more professional use but I prefer beginner-friendly platforms. GCP provides faster and reliable steps to create a vm whereas OCI provides more advanced options that is not geared towards quick setup of a vm.
