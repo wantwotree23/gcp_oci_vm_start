@@ -24,18 +24,18 @@ Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90b
 6. Boot disk: default minimal
 7. Network: default VPC; ephemeral public IP
 
-GCP create(images/Google-create.png)
+[GCP create](images/Google-create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
 - Stop: <state shows TERMINATED/STOPPED>
 
-GCP running(images/google-running.png)
+[GCP running](images/google-running.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-GCP cleaned(images/Google-terminate.png)
+[GCP cleaned](images/Google-terminate.png)
 
 ---
 
@@ -48,18 +48,18 @@ GCP cleaned(images/Google-terminate.png)
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-OCI create(images/Oracle-create.png)
+[OCI create](images/Oracle-create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
 - Stop: <state shows STOPPED>
 
-!OCI running(images/Oracle-running.png)
+![OCI running](images/Oracle-running.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-OCI cleaned(images/Oracle-terminate.png)
+[OCI cleaned](images/Oracle-terminate.png)
 
 ---
 
