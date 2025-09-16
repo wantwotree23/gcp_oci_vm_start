@@ -2,8 +2,10 @@
 
 ## Video
 Loom: Google Cloud <https://www.loom.com/share/02d6ad210ef9427cabdde7e69b7a9178?sid=d7d2173d-03a3-42ed-86a9-c05e47f3b06e>
-Loom: Oracle Cloud <https://www.loom.com/share/ade5ec9d928d406b833fbab5bfb85ff8?sid=ac8c190f-45c2-4428-bf91-331187da30ce>
-Loom: Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90bb24b-0406-4e59-bae2-a44887cfaf84>
+
+Oracle Cloud <https://www.loom.com/share/ade5ec9d928d406b833fbab5bfb85ff8?sid=ac8c190f-45c2-4428-bf91-331187da30ce>
+
+Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?sid=c90bb24b-0406-4e59-bae2-a44887cfaf84>
 
 
 ## Prereqs
@@ -22,18 +24,18 @@ Loom: Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?si
 6. Boot disk: default minimal
 7. Network: default VPC; ephemeral public IP
 
-![GCP create](images/Google-create.png)
+GCP create(images/Google-create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
 - Stop: <state shows TERMINATED/STOPPED>
 
-![GCP running](images/google-running.png)
+GCP running(images/google-running.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-![GCP cleaned](images/Google-terminate.png)
+GCP cleaned(images/Google-terminate.png)
 
 ---
 
@@ -46,18 +48,18 @@ Loom: Comparison <https://www.loom.com/share/a3accabd6fe443f69f50628332d81a49?si
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-![OCI create](images/Oracle-create.png)
+OCI create(images/Oracle-create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
 - Stop: <state shows STOPPED>
 
-![OCI running](images/Oracle-running.png)
+!OCI running(images/Oracle-running.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI cleaned](images/Oracle-terminate.png)
+OCI cleaned(images/Oracle-terminate.png)
 
 ---
 
